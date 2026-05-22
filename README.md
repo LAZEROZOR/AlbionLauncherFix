@@ -21,7 +21,8 @@ To ensure the fix is always active without having to launch it manually, you can
 
 2. Open the File Explorer in Windows.
 
-3. Copy and paste the following path into the address bar at the top, then press Enter:
-`%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup`
+3. Copy and paste the following path into the File Explorer address bar at the top, then press **Enter**:
+   ```text
+   %APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup
 
 The utility will now launch silently in the background every time you turn on your PC.
