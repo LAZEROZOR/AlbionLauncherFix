@@ -15,14 +15,11 @@ This tool runs quietly in the background, detects when the Albion Launcher is ru
 
 ## 🔄 How to Run at PC Startup
 
-To ensure the fix is always active without having to launch it manually, you can add a shortcut to your Windows Startup folder using its direct path:
+To ensure the fix is always active without having to launch it manually, you can place the executable directly into your Windows Startup folder:
 
-1. Locate your compiled .exe file, right-click it, and select Create shortcut.
-
-2. Open the File Explorer in Windows.
-
-3. Copy and paste the following path into the File Explorer address bar at the top, then press **Enter**:
-   ```text
-   %APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup
-   ```
+1. Copy your compiled `.exe` file.
+2. Open **File Explorer**, paste the following path into the address bar at the top, and press **Enter**:
+```text
+%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup
+```
 The utility will now launch silently in the background every time you turn on your PC.
